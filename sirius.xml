@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="orga"         fetch="https://github.com/XperiaZ2-Development"       revision="lineage-18.1"/>
+
+    <!-- Devices Trees -->
+    <project name="android_device_sony_sirius"              path="device/sony/sirius"               remote="orga"/>
+    <project name="android_device_sony_shinano-common"      path="device/sony/shinano-common"       remote="orga"/>
+    <project name="android_device_sony_msm8974-common"      path="device/sony/msm8974-common"       remote="orga"/>
+    <project name="android_device_sony_common"              path="device/sony/common"               remote="orga"/>
+
+    <!-- Kernel tree -->
+    <project name="android_kernel_sony_msm8974"             path="kernel/sony/msm8974"              remote="orga"/>
+
+    <!-- Hardware dependencies -->
+    <project name="android_hardware_broadcom_fm"            path="hardware/broadcom/fm"             remote="orga"/>
+    <project name="android_hardware_sony_thermanager"       path="hardware/sony/thermanager"        remote="orga"/>
+    <project name="android_hardware_sony_timekeep"          path="hardware/sony/timekeep"           remote="orga"/>
+    <project name="android_hardware_sony_macaddrsetup"      path="hardware/sony/macaddrsetup"       remote="orga"/>
+
+</manifest>
