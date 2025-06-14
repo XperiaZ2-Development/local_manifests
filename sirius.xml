@@ -10,6 +10,11 @@
     <project name="android_device_sony_msm8974-common"      path="device/sony/msm8974-common"       remote="orga"/>
     <project name="android_device_sony_common"              path="device/sony/common"               remote="orga"/>
 
+    <!-- Vendor -->
+    <project name="proprietary_vendor_sony_sirius"          path="vendor/sony/sirius"               remote="orga"/>
+    <project name="proprietary_vendor_sony_shinano-common"  path="vendor/sony/shinano-common"       remote="orga"/>
+    <project name="proprietary_vendor_sony_msm8974-common"  path="vendor/sony/msm8974-common"       remote="orga"/>
+
     <!-- Kernel tree -->
     <project name="android_kernel_sony_msm8974"             path="kernel/sony/msm8974"              remote="orga"/>
 
